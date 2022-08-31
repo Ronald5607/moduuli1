@@ -1,5 +1,5 @@
-s = input('Mikä on biologinen sukupuolesi (mies, nainen)?\n')
-he = float(input('Hemoglobiini arvosi (g/l)?\n'))
+s = input('Mikä on biologinen sukupuolesi (mies, nainen)? ')
+he = float(input('Hemoglobiini arvosi (g/l)? '))
 
 if s == 'mies':
     if 134 <= he <= 195:

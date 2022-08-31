@@ -1,4 +1,4 @@
-vuosi = int(input('Mikä vuosi?\n'))
+vuosi = int(input('Mikä vuosi? '))
 
 if vuosi % 4 == 0 and (vuosi % 100 != 0 or vuosi % 400 == 0):
     print('Vuosi on karkausvuosi.')

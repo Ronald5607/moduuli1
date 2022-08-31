@@ -1,4 +1,4 @@
-kuha = float(input('Kuhasi pituus senttimetreissä?\n'))
+kuha = float(input('Kuhasi pituus senttimetreissä? '))
 
 if kuha < 37:
     print(f'Laita kuha takaisin veteen, se on {37-kuha}cm liian lyhyt.')
