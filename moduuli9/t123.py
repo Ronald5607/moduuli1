@@ -21,8 +21,7 @@ class Auto:
         return f'''Auton rekisteritunnus on: {self.rekisteritunnus}
 Auton huippunopeus on: {self.huippunopeus} km/h
 Auton tämänhetkinen nopeus on: {self.nopeus} km/h
-Auton kuljettu matka on: {self.matka} km
-        '''
+Auton kuljettu matka on: {self.matka} km'''
 
 
 if __name__ == 'main':
