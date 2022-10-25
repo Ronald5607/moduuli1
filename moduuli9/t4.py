@@ -2,7 +2,7 @@ from moduuli9.t123 import Auto
 from random import randint
 
 
-def tee_autot(maara: int) -> [Auto]:
+def tee_autot(maara: int) -> list[Auto]:
     return [Auto(f'ABC-{n+1}', randint(100, 200)) for n in range(maara)]
 
 
