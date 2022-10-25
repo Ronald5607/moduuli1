@@ -7,14 +7,14 @@ class Auto:
         self.nopeus = 0
         self.matka = 0
 
-    def kiihdyta(self, kiihdytys):
+    def kiihdyta(self, kiihdytys: int) -> None:
         self.nopeus = self.nopeus + kiihdytys
         if self.nopeus < 0:
             self.nopeus = 0
         elif self.nopeus > self.huippunopeus:
             self.nopeus = self.huippunopeus
 
-    def kulje(self, tunnit):
+    def kulje(self, tunnit: int) -> None:
         self.matka += self.nopeus * tunnit
 
     def __str__(self):
@@ -24,7 +24,7 @@ Auton tämänhetkinen nopeus on: {self.nopeus} km/h
 Auton kuljettu matka on: {self.matka} km'''
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     uusi_auto = Auto('ABC-123', 142)
 
     print(uusi_auto)
