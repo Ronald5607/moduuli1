@@ -5,7 +5,7 @@ from moduuli9.t4 import tee_autot
 
 class Kilpailu:
 
-    def __init__(self, nimi: str, matka_kilometreina: int, autolista: list[Auto]):
+    def __init__(self, nimi: str, matka_kilometreina: int, autolista: [Auto]):
         self.nimi = nimi
         self.matka = matka_kilometreina
         self.autot = autolista

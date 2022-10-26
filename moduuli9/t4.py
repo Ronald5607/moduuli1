@@ -6,7 +6,7 @@ def tee_autot(maara: int) -> list[Auto]:
     return [Auto(f'ABC-{n+1}', randint(100, 200)) for n in range(maara)]
 
 
-def aja_kisa(autolista: [Auto], pituus: int) -> None:
+def aja_kisa(autolista: list[Auto], pituus: int) -> None:
     max_matka = 0
     while max_matka < pituus:
         for auto in autolista:

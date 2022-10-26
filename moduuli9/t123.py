@@ -17,7 +17,7 @@ class Auto:
     def kulje(self, tunnit: int) -> None:
         self.matka += self.nopeus * tunnit
 
-    def __str__(self) -> str:
+    def __str__(self):
         return f'''Auton rekisteritunnus on: {self.rekisteritunnus}
 Auton huippunopeus on: {self.huippunopeus} km/h
 Auton tämänhetkinen nopeus on: {self.nopeus} km/h
