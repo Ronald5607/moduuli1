@@ -1,6 +1,6 @@
 import requests as re
 
-API_key = '80630f0b654ecb13b90c92b4194150aa'
+API_key = input('Anna API avain: ')
 kaupunki = input('Anna paikkakunta: ')
 
 
